@@ -19,4 +19,16 @@ switch (Mes)
     alert("Ya pasamos el frio, ahora calor!!!.");
     break;
 }
+/*if (Mes == "Septiembe" || Mes == "Octubre" || Mes == "Noviembre" || Mes == "Diciembre")
+{
+    alert("Ya pasamos el frio, ahora calor!!!.");
+}
+else if (Mes == "Julio" || Mes == "Agosto")
+{
+    alert("Abrigate que hace frio.");
+}
+else
+{
+    alert("Falta para el invierno.");
+}*/
 }//FIN DE LA FUNCIÓN

@@ -17,5 +17,20 @@ switch (Mes)
     alert("Felices Fiestas!!!");
     break;
 }
-
+/*if (Mes == "Enero")
+{
+     alert("Qué comiences bien el año!!!");
+}
+else if (Mes == "Marzo")
+{
+    alert("A clases!!!");
+}
+else if (Mes == "Julio")
+{
+   alert("Se vienen las vacaciones!!!"); 
+}
+else if (Mes == "Diciembre")
+{
+alert("Felices Fiestas!!!");
+}*/
 }//FIN DE LA FUNCIÓN

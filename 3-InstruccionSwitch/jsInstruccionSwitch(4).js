@@ -17,4 +17,16 @@ switch (Mes)
     alert("Tiene 30 días");
     break;
 }
+/*if (Mes == "Febrero")
+{
+    alert("Tiene 28 días");
+}
+else if (Mes == "Abril" || Mes == "Junio" || Mes == "Septiembre" || Mes == "Noviembre")
+{
+    alert("Tiene 31 días");
+}
+else
+{
+    alert("Tiene 30 días");
+}*/
 }//FIN DE LA FUNCIÓN
