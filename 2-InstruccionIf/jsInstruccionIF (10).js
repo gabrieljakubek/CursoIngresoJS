@@ -7,16 +7,14 @@ function Mostrar()
 	{
 		alert("Excelente");
 	}
-	else 
+	else if (num >= 4)
 	{
-		if (num >= 4)
-		{
-			alert("Aprobó");
-		}
-		else
-		{
-			alert("Vamos, la proxima se puede");
-		}
+		alert("Aprobó");
+	}
+    else
+	{
+    	alert("Vamos, la proxima se puede");
+	}
 	}
 
 }//FIN DE LA FUNCIÓN
