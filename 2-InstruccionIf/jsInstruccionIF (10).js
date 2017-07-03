@@ -15,6 +15,5 @@ function Mostrar()
 	{
     	alert("Vamos, la proxima se puede");
 	}
-	}
 
 }//FIN DE LA FUNCIÓN
