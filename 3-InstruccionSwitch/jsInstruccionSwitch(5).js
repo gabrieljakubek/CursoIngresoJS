@@ -12,4 +12,8 @@ switch(Hora)
     alert("Es de mañana!");
     break;
 }
+/*if (Hora == 7 || Hora == 8 || Hora == 9 || Hora == 10 || Hora == 11)
+{
+    alert("Es de mañana!");
+}*/
 }//FIN DE LA FUNCIÓN
