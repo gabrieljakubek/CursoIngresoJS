@@ -6,5 +6,4 @@ function Mostrar()
 		num--;
 		alert(num);
 	}
-
 }//FIN DE LA FUNCIÓN
