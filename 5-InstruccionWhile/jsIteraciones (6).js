@@ -6,7 +6,8 @@ function Mostrar()
 	while (contador<5)
 	{
 		num=parseInt(prompt("Ingrese un número"));
-		while (!(num>=0||num<=0))
+		console.log(num)
+		while (isNaN(num))
 		{
 			num=parseInt(prompt("Ingrese un número"));
 		}
@@ -15,6 +16,6 @@ function Mostrar()
 	}
 
 document.getElementById('suma').value=acumulador;
-document.getElementById('promedio').value=acumulador/5;
+document.getElementById('promedio').value=acumulador/contador;
 
 }//FIN DE LA FUNCIÓN
