@@ -18,7 +18,6 @@ function Mostrar()
 		}
 		respuesta=confirm("Desea agregar más números?");
 	}
-
 document.getElementById('suma').value=positivo;
 document.getElementById('producto').value=negativo;
 
