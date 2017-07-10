@@ -1,7 +1,7 @@
 function Mostrar()
 {
-	var positivo=0;
-	var negativo=1;
+	var acumuladorsuma=0;
+	var acumuladormulti=1;
 	var respuesta;
 	var num;
 	respuesta=true;
@@ -10,15 +10,15 @@ function Mostrar()
 		num=parseInt(prompt("Ingrese un número"));
 		if(num>=0)
 		{
-			positivo=positivo+num;
+			acumuladorsuma+=num;
 		}
 		else
 		{
-			negativo=negativo*num;
+			acumuladormulti*=num;
 		}
 		respuesta=confirm("Desea agregar más números?");
 	}
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+document.getElementById('suma').value=acumuladorsuma;
+document.getElementById('producto').value=acumuladormulti;
 
 }//FIN DE LA FUNCIÓN
