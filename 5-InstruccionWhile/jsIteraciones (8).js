@@ -8,6 +8,10 @@ function Mostrar()
 	while(respuesta==true)
 	{
 		num=parseInt(prompt("Ingrese un número"));
+		while (isNaN(num))
+		{
+			num=parseInt(prompt("Ingrese un número"));
+		}
 		if(num>=0)
 		{
 			acumuladorsuma+=num;
