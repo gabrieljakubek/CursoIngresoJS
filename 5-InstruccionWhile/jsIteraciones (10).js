@@ -42,7 +42,11 @@ function Mostrar()
 	}
 	promenega=sumanega/contadornega;
 	promeposi=sumaposi/contadorposi;
-	diferenciaposinega=sumaposi+sumanega;
+	diferenciaposinega=contadorposi-contadornega;
+	if(diferenciaposinega<0)
+	{
+		diferenciaposinega=diferenciaposinega*-1;
+	}
 	document.write("La suma de los negativos es de: "+sumanega+"</br></br>");
 	document.write("La suma de los positivos es de: "+sumaposi+"</br></br>");
 	document.write("La cantidad de negativos es de: "+contadornega+"</br></br>");
