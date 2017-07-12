@@ -40,8 +40,22 @@ function Mostrar()
 
 		respuesta=confirm("Desea continuar?");
 	}
-	promenega=sumanega/contadornega;
-	promeposi=sumaposi/contadorposi;
+	if (contadornega<0)
+	{
+		promenega=sumanega/contadornega;
+	}
+	else
+	{
+		promenega="No se han ingresado números negativos"
+	}	
+	if (contadorposi>0)
+	{
+		promeposi=sumaposi/contadorposi;
+	}	
+	else
+	{
+		promeposi="No se han ingresado números positivos"
+	}
 	diferenciaposinega=contadorposi-contadornega;
 	if(diferenciaposinega<0)
 	{
