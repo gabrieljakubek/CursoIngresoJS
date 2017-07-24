@@ -6,7 +6,6 @@ function Mostrar()
     {
         if (i%2==0)
         {
-           {
             alert("Es divisible por: "+i);
             contpar++;
         }
