@@ -13,6 +13,7 @@ function ComenzarIngreso ()
     var contpar=0;
     var contimpar=0;
     var contdivisibles=0;
+    var contprimos=0;
 }
 function NumerosPares() 
 {
@@ -103,5 +104,16 @@ function NumerosPrimos()
     }
     else
     {
+        for(i=2;i<num;i++)
+        {
+            if(num%i==0&&num!=2)
+            {
+               
+            }
+            else
+            {
+               
+            }
+        }
     }
 }
