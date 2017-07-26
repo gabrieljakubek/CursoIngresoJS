@@ -8,7 +8,7 @@ function Mostrar()
     while(inicio==true)
     {
         importedia =parseInt(prompt("Ingrese el importe de el día"+contdia));
-        while(isNaN(importedia))
+        while(importedia<0)
 		{
 		    importedia =parseInt(prompt("Ingrese el importe de el día"+contdia));
 		}
@@ -20,23 +20,20 @@ function Mostrar()
     while(contdia<25)
     {
         importedia =parseInt(prompt("Ingrese el importe de el día"+contdia));
-        while(isNaN(importedia))
+        while(importedia<0)
 		{
 		    importedia =parseInt(prompt("Ingrese el importe de el día"+contdia));
 		}
-        if (importedia>0)
+        if (importemay<importedia)
         {
-            if (importemay<importedia)
-            {
-                importemay=importedia;
-            }
-            else if (importemen>importedia)
-            {
-                importemen=importedia;
-            }
+            importemay=importedia;
+        }
+        if (importemen>importedia)
+        {
+            importemen=importedia;
         }
         contdia++
     }
-    document.write("El mayor importe fue de: $"+importemay+"</b></b>");
-    document.write("El menor importe fue de: $"+importemen+"</b></b>");
+    document.write("El mayor importe fue de: $"+importemay+"</br></br>");
+    document.write("El menor importe fue de: $"+importemen+"</br></br>");
 }

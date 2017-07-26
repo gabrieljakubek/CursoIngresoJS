@@ -11,7 +11,7 @@ function Mostrar()
     while(inicio==true)
     {
         nota=parseInt(prompt("Ingrese la nota del alumno"));
-        while (isNaN(nota)|| nota<0 && nota>0)
+        while (isNaN(nota)|| nota<0 && nota>10)
         {
             nota=parseInt(prompt("Ingrese la nota del alumno"));
         }
@@ -28,7 +28,7 @@ function Mostrar()
     while(contalumnos<100)
     {
         nota=parseInt(prompt("Ingrese la nota del alumno"));
-        while (isNaN(nota)|| nota<0 && nota>0)
+        while (isNaN(nota)|| nota<0 && nota>10)
         {
             nota=parseInt(prompt("Ingrese la nota del alumno"));
         }
